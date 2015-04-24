@@ -1,0 +1,151 @@
+body
+{
+    background-image:url('images/math_4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Div de ma page */
+#container
+{
+    display:inline-block;
+    width:225px;
+    margin-top:35px;
+    margin-left:40%;
+    background-color:#000000;
+    border :8px solid #660000;
+    border-radius: 10px;
+}
+
+/* Classes attribuÃ©es Ã  mes boutons de validation W3C */
+.w3c
+{
+    display:inline-block;
+    float:right;
+    margin-top:40%;
+}
+
+.w3ccss
+{	
+    display:inline-block;
+    margin-top:40%;
+    float:right;
+}
+/* Fin des classes attribuÃ©es Ã  mes boutons de validation W3C */
+
+
+/* Case resultat */
+#result
+{
+    text-align:center;
+    padding-top:10px;
+}
+
+/* Champ resultat */
+.calc_resultat
+{
+    text-align:right;
+}
+
+/* Lignes de ma calculatrice ( horizontales ) */
+#line1
+{
+    padding-top:5px;
+    text-align:center;
+}
+
+#line2
+{
+    text-align:center;
+    margin-top:-5px;
+}
+
+#line3
+{
+    text-align:center;
+}
+
+#line4
+{
+    text-align:center;
+}
+
+#line5
+{
+    text-align:center;
+}
+
+#line6
+{
+    text-align:center;
+}
+
+#line7
+{
+    margin-bottom:20px;
+    text-align:center;
+}
+/* Fin des lignes de ma calculatrice */
+
+
+/* Classe attribuÃ©e Ã  tout mes boutons */
+.all
+{
+    background-color:white;
+    margin-left:7px;
+    margin-top:5px;
+}
+/* Boutons 0-9 */
+.nbs
+{
+    background-color:#FF2D2D;
+}
+
+/* Classe attribuÃ©e Ã  mes boutons de calculs simples (+, -, /, *) */
+.simple
+{
+    background-color:#6B51FF;
+}
+
+/* Classe attribuÃ©e Ã  mes boutons de calculs scientifiques ( puissance, logarithme, ...)  */
+.scientifique
+{
+    background-color:#FF6666;
+}
+
+/* Mon bouton Ã©gal ( = ) */
+.equal
+{
+    background-color:#FFD700;
+}
+
+/* Classe attribuÃ©e Ã  tout mes boutons qui concernent la mÃ©moire ( M+, M-, MC, MR ) */
+.memoire
+{
+    background-color:#FFCCCC;
+}
+
+/* Classe attribuÃ©e Ã  mon bouton de switch scientifique/normal mode */
+.bouton
+{
+    width:68%;
+    background-color:#9999FF;
+    color:white;
+}
+
+/* Id attribuÃ©e Ã  mon bouton de switch scientifique/normal mode */
+#bouton_texte
+{
+    margin-top:15px;
+    margin-left:36px;
+}
+
+
+/* Bouton swap style */
+.swapstyle
+{
+    background-color:#CC0000;
+    margin-left:29%;
+    margin-bottom:5px;
+}
